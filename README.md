@@ -36,3 +36,7 @@
 #### mode에 따른 wrong case,와 correct case를 시각화합니다.
 >* ```python3 analysis.py --mode overfit```
 >* ```python3 analysis.py --mode regularzied```
+
+#### Output of analysis.py
+>* mode : **overfit** or **regularized**
+>* **saved_images_{mode}.png**
