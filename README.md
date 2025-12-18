@@ -4,16 +4,15 @@
 
 -----
 
->구현 환경
-OS : Ubuntu 20.04 LTS
-Python --version : 3.9.23
+>##구현 환경
+OS : Ubuntu 20.04 LTS<br>
+Python --version : 3.9.23<br>
 GPU : A6000
 
 ----
 
->실행 방법
-train.py는 parameter를 통해 model을 제어할 수 있습니다.
-<br>
+>##실행 방법<br>
+###train.py는 parameter를 통해 model을 제어할 수 있습니다.<br>
 --overfit : 활성화 시 overfitting model, 
             비활성화 시 regularization 적용 model
 <br>
