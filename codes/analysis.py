@@ -85,7 +85,7 @@ def run_analysis(args):
         title = f"[Correct]\nTrue: {classes[label]}\nPred: {classes[pred]}"
         imshow(img, title, axes[0][i])
         
-    # wrongcase
+    # wrong case
     for i in range(5):
         img, pred, label = wrong_samples[i]
         title = f"[Wrong]\nTrue: {classes[label]}\nPred: {classes[pred]}"
